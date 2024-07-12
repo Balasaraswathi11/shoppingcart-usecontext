@@ -1,0 +1,62 @@
+.card{
+    width: 20rem;
+   
+   margin: 30px 15px;
+   
+}
+
+
+.card-text{
+    font-size: 14px;
+}
+.card-btn{
+    border-radius: 5px;
+    background-color: white;
+    font-size: 15px;
+    padding: 5px 20px ;
+}
+.card-btn:hover{
+    color: white;
+    background-color: black;
+   
+}
+
+
+.product-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    margin-top: 70px;
+}
+.btnremove{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 15px;
+    padding: 5px 15px;
+}
+.btnadd{
+    border-radius: 5px;
+    background-color: white;
+    padding: 5px;
+    font-size: 15px;
+  
+}
+/* .btnadd:hover{
+background-color: black;
+color: white;
+}
+.btnremove:hover{
+    background-color: white;
+    color: black;
+    } */
+.img{
+    width: 200px;
+    height: 300px;
+  
+   padding: 10px;
+    margin:0 auto;
+}
