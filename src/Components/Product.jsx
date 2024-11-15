@@ -32,9 +32,12 @@ const Product = ({ product }) => {
       </div>
       
       <div className="card-body text-center ">
+        <div className='card-body-h'>
         <h5 className="card-title py-2 " style={{
           fontSize:"15px"
         }}>{product.title}</h5>
+        </div>
+       
        
         <p className="card-text">
           <b>⭐</b> {product.rating.rate} ({product.rating.count}) <i className="fa fa-star text-warning"></i>
