@@ -5,7 +5,7 @@ import Mycontext from './Mycontext';
 const Product = ({ product }) => {
   const { cart, setCart } = useContext(Mycontext);
   const [showMore, setShowMore] = useState(false);
-  const limit = 100; 
+  const limit = 70; 
 
 
   //showmore toggle function
@@ -25,20 +25,19 @@ const Product = ({ product }) => {
   const isInCart = cart.some((c) => c.id === product.id);
 
   return (
-    <div className="card">
-      <img src={product.image} className="card-img-top img" alt="product" />
-      <div className="card-body text-center">
-        <h5 className="card-title fs-5">{product.name}</h5>
+
+      <div className="d-flex flex-column containers px-2   ">
+      <div className='d-flex justify-content-between img'>
+      <img src={product.image} className="card-img-top " alt="product" />
+      </div>
+      
+      <div className="card-body text-center ">
+        <h5 className="card-title py-2 " style={{
+          fontSize:"15px"
+        }}>{product.title}</h5>
+       
         <p className="card-text">
-          {showMore ? product.description : `${product.description.slice(0, limit)}${product.description.length > limit ? '...' : ''}`}
-          {product.description.length > limit && (
-            <a onClick={handleToggleShowMore} className="show-more">
-              {showMore ? 'Show Less' : 'Show More'}
-            </a>
-          )}
-        </p>
-        <p className="card-text">
-          <b>Rating:</b> {product.rating.rate} ({product.rating.count}) <i className="fa fa-star text-warning"></i>
+          <b>⭐</b> {product.rating.rate} ({product.rating.count}) <i className="fa fa-star text-warning"></i>
         </p>
         <p className="card-text"> Price: $ <b>{product.price}</b></p>
         {isInCart ? (
@@ -48,6 +47,8 @@ const Product = ({ product }) => {
         )}
       </div>
     </div>
+
+    
   );
 };
 
