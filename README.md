@@ -20,5 +20,5 @@ The **Shopping Cart ** is a React-based shopping cart application built using **
 - **React Context API:** Provides a way to manage state globally across components.
 - **JavaScript (ES6+):** Modern JavaScript features used to enhance the application.
 
-[Backend](https://github.com/Balasaraswathi11/Shopping-cart-be.git)
-[Deployed netlify link](https://shoppingcart-frontend.netlify.app/)
+### [Backend](https://github.com/Balasaraswathi11/Shopping-cart-be.git)
+### [Deployed netlify link](https://shoppingcart-frontend.netlify.app/)
