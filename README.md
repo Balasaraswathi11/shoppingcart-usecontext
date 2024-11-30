@@ -1,17 +1,23 @@
-# Shopping Cart 
+# Shopping Cart
 
-This project is a dynamic shopping cart built with React, showcasing the use of the `useContext` hook for state management. It allows users to browse items, add them to the cart, view the cart contents, and calculate the total cost seamlessly.
+## Description
+
+The **Shopping Cart ** is a React-based shopping cart application built using **React's Context API** to manage global state. The application allows users to add products to the cart, view the cart items, update quantities, and proceed to checkout. The app is designed with a focus on simple and effective state management using the **useContext** hook.
 
 ## Features
-- **Add/Remove Items:** Easily add or remove products from the shopping cart.
-- **Cart Summary:** View the selected items and their total cost in the cart.
-- **State Management:** Efficiently manage cart data using the `useContext` hook, ensuring clean and modular code.
-- **Responsive Design:** The cart is designed to look great on devices of all sizes.
 
-## Tech Stack
-- **React:** For building the UI components.
-- **useContext Hook:** For managing the global state of the shopping cart.
-- **CSS:** For styling the components and ensuring a responsive layout.
-- **Bootstrap:** For responsiveness of the application and styling
+- **Product Management:** Users can add, remove, and update the quantity of items in the shopping cart.
+- **Cart Summary:** Displays the total price of the products in the cart, along with quantity management.
+- **Checkout:** Users can proceed to the checkout process and simulate payment.
+- **React Context API:** Efficiently handles the global state for the cart across different components.
 
+## Tech Used
 
+- **React.js (v18.3.1):** JavaScript library for building user interfaces.
+- **React DOM (v18.3.1):** Provides DOM-specific methods for React applications.
+- **React Router DOM (v6.24.1):** Used for navigating between pages in the app.
+- **Bootstrap (v5.3.3):** CSS framework for responsive design and UI components.
+- **React Context API:** Provides a way to manage state globally across components.
+- **JavaScript (ES6+):** Modern JavaScript features used to enhance the application.
+
+[Backend](https://github.com/Balasaraswathi11/Shopping-cart-be.git)
